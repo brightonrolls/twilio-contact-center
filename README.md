@@ -1,3 +1,6 @@
+# POHs copy of the Contact Center demo
+This is a fork of the Twilio Contact centre demo for experimentational purposes
+
 # Twilio Contact Center Demo
 Essence of a modern contact center is to serve customers on multiple channels (voice, web chat, video, email, social media, etc.), allow them to move seamlessly across channels and most importantly maintain context of the conversations.
 
@@ -40,7 +43,7 @@ Customer fills out video call request form -> Form submitted to server -> Task o
 ![Customer Journey Video](contact_center_flow_video.png)
 
 ## Operational Analytics/Dashboard (future):
-Real-time display of operational contact center metrics (for example: average call handle time, agent productivity, call metrics, TaskRouter stats, and more etc.) 
+Real-time display of operational contact center metrics (for example: average call handle time, agent productivity, call metrics, TaskRouter stats, and more etc.)
 
 ## Pre-requisites:
 * Basic of Twilio platform - [Twilio \<Skills\>](https://twilio.radicalskills.com/), an elearning platform that provides a guided path for getting started with Twilio.
@@ -71,7 +74,7 @@ This will install the application and all the dependencies on Heroku (login requ
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nash-md/twilio-contact-center)
 
-After the installation has completed please open `https://<your_application_name>.herokuapp.com/setup` and configure the application. The demo overview will be accessible at `https://<your_application_name>.herokuapp.com`. 
+After the installation has completed please open `https://<your_application_name>.herokuapp.com/setup` and configure the application. The demo overview will be accessible at `https://<your_application_name>.herokuapp.com`.
 
 ## Manual Install - On Your Own Server
 
@@ -131,4 +134,3 @@ git push origin [YOUR BRANCH] -f
 # License
 
 MIT
-
