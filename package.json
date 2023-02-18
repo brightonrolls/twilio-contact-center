@@ -1,13 +1,13 @@
-{
-  "name": "twilio-contact-center",
-  "description": "A simple omni channel contact center using Twilio WebRTC Client, Video, SMS, Chat and Taskrouter",
+  {
+  "name": "Becks Insurance - Contact Hub",
+  "description": "An omni channel contact centre using WebRTC Client, Video, SMS, Chat and Taskrouter",
   "version": "1.7.0",
-  "author": "Matthias Damm",
+  "author": "Darren Beckinsale",
   "contributors": [],
   "license": "MIT",
-  "repository": "nash-md/twilio-contact-center",
+  "repository": "brightonrolls/Becks-Insurance--Contact-Hub",
   "main": "app.js",
-  "bugs": "https://github.com/nash-md/twilio-contact-center/issues",
+  "bugs": "https://github.com/brightonrolls/Becks-Insurance--Contact-Hub",
   "private": false,
   "keywords": [
     "Twilio",
