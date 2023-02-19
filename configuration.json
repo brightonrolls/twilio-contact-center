@@ -1,16 +1,16 @@
 {
 	"ivr": {
-		"text": "Thanks for calling. You can press a key or say the department name. Press 1 for Sales, press 2 for Support",
+		"text": "Thanks for calling Becks. You can press a key or say 1 for a broker or press 2 for Claims",
 		"options": [
 			{
-				"friendlyName": "Sales",
+				"friendlyName": "Broker",
 				"digit": 1,
-				"id": "sales"
+				"id": "broker"
 			},
 			{
-				"friendlyName": "Support",
+				"friendlyName": "Claims",
 				"digit": 2,
-				"id": "support"
+				"id": "Claims"
 			}
 		]
 	},
@@ -18,33 +18,33 @@
 		{
 			"friendlyName": "Chat Queue",
 			"id": "chat",
-			"taskQueueSid": null,
+			"taskQueueSid": "WQ5d80ea64d0d5bc0b015688b2ad2095be",
 			"expression": "channel == \"chat\"",
-			"targetWorkerExpression": ""
+			"targetWorkerExpression": "channels HAS chat"
 		},
 		{
 			"friendlyName": "Phone Queue",
 			"id": "phone",
-			"taskQueueSid": null,
+			"taskQueueSid": "WQf744dd70ebc5a61b2e923190a8927295",
 			"expression": "channel == \"phone\"",
 			"targetWorkerExpression": "task.team == worker.team"
 		},
 		{
 			"friendlyName": "Video Queue",
 			"id": "video",
-			"taskQueueSid": null,
+			"taskQueueSid": "WQ311cf608165e3204adffa49b0883f779",
 			"expression": "channel == \"video\"",
-			"targetWorkerExpression": ""
+			"targetWorkerExpression": "channels HAS video"
 		}
 	],
 	"twilio": {
-		"workerOfflineActivitySid": null,
-		"workerIdleActivitySid": null,
-		"workerReservationActivitySid": null,
-		"workerAssignmentActivitySid": null,
-		"callerId": null,
+		"workerOfflineActivitySid": "WA2e7e31ed0024c5b08f26b5218e750a91",
+		"workerIdleActivitySid": "WA2e7e31ed0024c5b08f26b5218e750a91",
+		"workerReservationActivitySid": "WA2e7e31ed0024c5b08f26b5218e750a91",
+		"workerAssignmentActivitySid": "WA2e7e31ed0024c5b08f26b5218e750a91",
+		"callerId": +447403934601,
 		"applicationSid": null,
-		"workflowSid": null,
-    "facebookPageId": null
+		"workflowSid": "WS3d61f990564f07beee7e47be102c3940",
+    "facebookPageId": "https://facebook.com/becks.insure"
 	}
 }
